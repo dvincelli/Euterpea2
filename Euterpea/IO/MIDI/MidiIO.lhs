@@ -323,7 +323,7 @@ played.  Otherwise, it is queued for later.
 >       if t == 0
 >         then out (now,m)
 >         else push pChan (now+t) m
->
+>    
 >   case m of
 >     Std m -> deliver t m
 >     ANote c k v d -> do
